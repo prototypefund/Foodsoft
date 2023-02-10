@@ -5,7 +5,6 @@ gem "rails", '~> 5.2'
 
 gem 'sass-rails'
 gem 'less-rails'
-gem 'uglifier', '>= 1.0.3'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
@@ -121,3 +120,5 @@ group :test do
 end
 
 gem "importmap-rails", "~> 1.1"
+
+gem "terser", "~> 1.1"

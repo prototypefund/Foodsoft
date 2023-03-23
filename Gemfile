@@ -23,7 +23,7 @@ gem 'bootsnap', require: false
 gem 'mysql2'
 gem 'prawn'
 gem 'prawn-table'
-gem 'haml'
+gem 'haml', '~> 5.0'
 gem 'haml-rails'
 gem 'kaminari'
 gem 'simple_form'
